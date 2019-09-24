@@ -1,0 +1,33 @@
+ul{
+  overflow: hidden;
+  li{
+    list-style: none;
+    float: left;
+    width: 100px;
+  }
+  li.active{
+    color: #2E9CFF;
+  }
+  li.complete{
+    color: #0CC991;
+  }
+  li.wait{
+    color: #BFC3C7;
+  }
+}
+.container{
+  margin: 0 auto;
+  width: 980px;
+  .content{
+    height: 300px;
+    background-color: orange;
+  }
+  .domHidden{
+    display: none;
+  }
+  .tab{
+    li{
+      cursor: pointer;
+    }
+  }
+}
