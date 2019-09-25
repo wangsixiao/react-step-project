@@ -9,6 +9,7 @@
 #### 1、遇到的问题
 ###### 1) 声明变量定义类型
 在循环中获取定义变量对象的值，然后报错，当时未声明变量的类型；
+
 Element implicitly has an 'any' type because expression of type 'string' can't be used to index type；
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019092510111244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1NDIzNDMx,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190925101126626.png)
