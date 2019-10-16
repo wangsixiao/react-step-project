@@ -59,4 +59,10 @@ try {
   })
 } catch (e) {}
 ```
+###### 3）在sass里使用background-image: url("./images/jinxing.png");报错
+安装url-loader模块，webpack添加rules设置
+{
+  test: /.(jpg|png)$/,
+  use: ['url-loader']
+},
 
